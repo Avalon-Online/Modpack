@@ -1,0 +1,17 @@
+name: Scan
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  job_id:
+    name: "Scan Virus"
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Checkout Repository"
+        uses: "actions/checkout@v3.5.2"
+        with:
+          fetch-depth: 0
+      - name: "Scan Repository"
+        uses: "hugoalh/scan-virus-ghaction@v0.16.1"
