@@ -1,5 +1,6 @@
 .bobby
 .fabric
+.replay_cache
 logs
 data
 server-resource-packs
