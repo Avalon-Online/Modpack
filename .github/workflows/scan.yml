@@ -15,3 +15,5 @@ jobs:
           fetch-depth: 0
       - name: "Scan Repository"
         uses: "hugoalh/scan-virus-ghaction@v0.16.1"
+        with:
+          yara_enable: true
