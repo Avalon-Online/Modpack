@@ -1,2 +1,0 @@
-# Modpack
-AVO Modpack
